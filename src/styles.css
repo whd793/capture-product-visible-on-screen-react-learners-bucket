@@ -1,0 +1,18 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.block {
+  background-color: red;
+  color: white;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
